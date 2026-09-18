@@ -1,0 +1,7 @@
+Reporte de productos:
+1. popo
+2. mierd
+3. rr
+
+------------------
+cantidad de productos: 3

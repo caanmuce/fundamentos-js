@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+        body{
+            background: white;
+        }
+        .calculadora{
+            max-width: 420px;
+            margin: auto;
+        }
+        .pantalla{
+            height: 70px;
+            font-size: 2rem;
+            text-align: right;
+        }
+        .btn{
+            height: 60px;
+            font-size: large 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="card shadow-lg calculadora">
+            <div class="card-header bg-dark text-white text-center">
+                <h4 class="mb-0">calculadora</h4>
+            </div>
+            <div class="card-body">
+                <input type="text" class="form-control" pantalla mb-3 id="pantalla" readonly>
+
+            </div>
+            <div class="row g-2">
+                <div class="col-3">
+                    <button class="bg-danger btn btn-light w-100" id="btnc">C</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btnce">CE</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btndiv">/</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btnmulti">*</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn7">7</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn8">8</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn9">9</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btnminus">-</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn4">4</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn5">5</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn6">6</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btnplus">+</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn1">1</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn2">2</button>
+                </div>
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btn3">3</button>
+                </div>  
+                <div class="col-3">
+                    <button class="bg-secondary btn btn-light w-100" id="btnequal">=</button>
+                </div>
+                <div class="col-6">
+                    <button class="bg-secondary btn btn-light w-100" id="btn0">0</button>
+                </div>
+               <div class="col-6">
+                    <button class="bg-secondary btn btn-light w-100" id="btnpoint">.</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="calculadora.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
